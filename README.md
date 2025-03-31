@@ -17,10 +17,9 @@ And then us it directly:
 swish ./path/to/script.swift
 ```
 
-Or through the shebang of the script Swift file:
+Or through the shebang of the script Swift file `./path/to/script.swift`:
 
 ```swift
-// ./path/to/script.swift
 #!/usr/bin/env swish
 
 struct Script {
@@ -34,7 +33,7 @@ struct Script {
 #endif
 ```
 
-> [!NOTE]
+> [!IMPORTANT]
 > Swish files can be both, executable and libraries. Therefore, you should follow two important conventions:
 >   1. Wrap the executable logic using the `SWISH_MAIN` compiler directive.
 >   2. Namespace the business logic using a struct with a unique name.
