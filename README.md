@@ -1,5 +1,7 @@
 # Swish
 
+[![Swish](https://github.com/tuist/swish/actions/workflows/swish.yml/badge.svg)](https://github.com/tuist/swish/actions/workflows/swish.yml)
+
 `swish` is a simple yet powerful command-line tool to automate in Swift.
 It's designed to make scripts lightweight, portable, and easy to edit and run.
 
