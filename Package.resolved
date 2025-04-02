@@ -1,5 +1,5 @@
 {
-  "originHash" : "ecd837ced24beed8117363097018d3f3e648757d35176d2134830bb3662571b9",
+  "originHash" : "e2de35926d0fe04391de3b9473bd1a8dcc5dfa5d0d15259bd05dbf15beeb7f59",
   "pins" : [
     {
       "identity" : "command",
@@ -24,8 +24,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Kolos65/Mockable",
       "state" : {
-        "revision" : "203336d0ccb7ff03a8a03db54a4fa18fc2b0c771",
-        "version" : "0.3.0"
+        "revision" : "68f3ed6c4b62afab27a84425494cb61421a61ac1"
       }
     },
     {
@@ -98,6 +97,15 @@
       "state" : {
         "revision" : "c51907a839e63ebf0ba2076bba73dd96436bd1b9",
         "version" : "2.81.0"
+      }
+    },
+    {
+      "identity" : "swift-service-context",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-service-context",
+      "state" : {
+        "revision" : "8946c930cae601452149e45d31d8ddfac973c3c7",
+        "version" : "1.2.0"
       }
     },
     {
