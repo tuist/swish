@@ -22,7 +22,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
-      - uses: jdx/mise-action@v2
+      - uses: jdx/mise-action@v3
         with:
           experimental: true
       - name: Run
@@ -36,7 +36,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
-      - uses: jdx/mise-action@v2
+      - uses: jdx/mise-action@v3
         with:
           experimental: true
       - name: Run
@@ -47,7 +47,7 @@ jobs:
     runs-on: macos-15
     steps:
       - uses: actions/checkout@v4
-      - uses: jdx/mise-action@v2
+      - uses: jdx/mise-action@v3
         with:
           experimental: true
       - name: Run
