@@ -15,7 +15,7 @@ let package = Package(
         .package(url: "https://github.com/tuist/command", .upToNextMajor(from: "0.13.0")),
         .package(url: "https://github.com/tuist/Noora/", .upToNextMajor(from: "0.56.0")),
         .package(url: "https://github.com/Kolos65/Mockable", revision: "68f3ed6c4b62afab27a84425494cb61421a61ac1"),
-        .package(url: "https://github.com/apple/swift-service-context", .upToNextMajor(from: "1.2.0")),
+        .package(url: "https://github.com/apple/swift-service-context", .upToNextMajor(from: "1.3.0")),
     ],
     targets: [
         .executableTarget(
