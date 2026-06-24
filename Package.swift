@@ -12,7 +12,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser", .upToNextMajor(from: "1.5.0")),
         .package(url: "https://github.com/tuist/FileSystem/", .upToNextMajor(from: "0.7.9")),
-        .package(url: "https://github.com/tuist/command", .upToNextMajor(from: "0.13.0")),
+        .package(url: "https://github.com/tuist/command", .upToNextMajor(from: "0.14.12")),
         .package(url: "https://github.com/tuist/Noora/", .upToNextMajor(from: "0.56.0")),
         .package(url: "https://github.com/Kolos65/Mockable", revision: "68f3ed6c4b62afab27a84425494cb61421a61ac1"),
         .package(url: "https://github.com/apple/swift-service-context", .upToNextMajor(from: "1.2.0")),
